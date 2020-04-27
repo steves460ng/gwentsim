@@ -41,7 +41,14 @@ vector<string> gwent_draw(int draw_cnt);
 // return hand
 vector<string> gwent_redraw();
 
-// Dist 
+/* *************************
+	Src		->	Dist
+	deck		deck
+	hand		hand
+	grave		grave
+	field		field
+************************** */
+// hand -> grave 
 vector<string> gwent_hand_to_grave(int card_no);
 
 // return hand
